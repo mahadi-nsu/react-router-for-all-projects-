@@ -23,7 +23,12 @@ function Nav() {
       <NavLink to="/" activeClassName="active" end>
         Products
       </NavLink>
-      <NavLink to="/admin" activeClassName="active" end>
+      <NavLink
+        to="/admin"
+        activeClassName="active"
+        activeStyle={{ fontStyle: "italic" }}
+        end
+      >
         Admin
       </NavLink>
     </div>
