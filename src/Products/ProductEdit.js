@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductEdit = () => {
-  return <div>this is product edit</div>;
+  return <div>Single product</div>;
 };
 
 export default ProductEdit;

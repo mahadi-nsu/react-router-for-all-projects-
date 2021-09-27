@@ -22,7 +22,7 @@ const AppStyles = css`
   }
 `;
 const App = () => {
-  const [authenticated] = useState(false);
+  const [authenticated] = useState(true);
   return (
     <div className={AppStyles}>
       <Router>
@@ -31,7 +31,7 @@ const App = () => {
           <Routes>
             <Route path="/*" element={<Products />} />
             <ProtectedRoute
-              path="/admin"
+              path="/admin*"
               element={<Admin />}
               authenticated={authenticated}
               redirectTo="/"
