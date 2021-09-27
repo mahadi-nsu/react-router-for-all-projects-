@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate, Route } from "react-router";
+import { Navigate, Route } from "react-router-dom";
 
 const ProtectedRoute = ({ element, authenticated, redirectTo, ...rest }) => {
   if (!authenticated) {

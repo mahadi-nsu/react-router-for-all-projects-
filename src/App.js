@@ -22,7 +22,7 @@ const AppStyles = css`
   }
 `;
 const App = () => {
-  const [authenticated] = useState(true);
+  const [authenticated] = useState(false);
   return (
     <div className={AppStyles}>
       <Router>
