@@ -22,6 +22,7 @@ for frontend view : http://localhost:3000/
 - Object based Route Config
 - Search Param
 - Product List , Create, Edit , Delete
+- Sorting, Ordering products
 
 ## Some Screenshots :
 ![screenshot](https://user-images.githubusercontent.com/35952201/135722232-76b3e271-1f11-4a1b-aee1-ce217f5885c3.png)
