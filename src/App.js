@@ -19,7 +19,7 @@ const AppStyles = css`
     border: 4px solid #9580ff;
     border-radius: 6px;
     padding: 25px;
-  }
+  }.
 `;
 const App = () => {
   const [authenticated] = useState(true);
@@ -45,3 +45,5 @@ const App = () => {
 };
 
 export default App;
+
+// start with - 25
