@@ -1,15 +1,26 @@
-<h1 align="center">
-<img width="40" valign="bottom" src="https://ultimatecourses.com/static/icons/react.svg">
-React Router: Starter Project
-</h1>
-<h4 align="center">Starter Project for the Ultimate Courses <a href="https://ultimatecourses.com/learn/react-router" target="_blank">React Router course</a>.</h4>
 
----
+## How to run :
 
-<div align="center">
-<a href="https://ultimatecourses.com/courses/react" target="_blank"><img width="100%" src="https://ultimatecourses.com/static/banners/ultimate-react-leader.svg"></a>
-</div>
+```
+npm install
+npm start
+```
 
----
+## Where to go :
 
-Members, please refer to the [course setup](https://app.ultimatecourses.com/course/react-router) instructions to get started.
+```
+for data source : http://localhost:5000/
+for frontend view : http://localhost:3000/
+```
+
+## Features :
+
+- private and prtected routing
+- Route Splitting
+- Code Splitting and Lazy Lazy Loading Components
+- React Suspense
+- Object based Route Config
+- Search Param
+- Product List , Create, Edit , Delete
+
+
